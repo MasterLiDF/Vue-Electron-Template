@@ -1,0 +1,9 @@
+// 常用样式
+@mixin flex($justifyContent, $alignItems) {
+  display: flex;
+  justify-content: $justifyContent;
+  align-items: $alignItems;
+}
+.vxCenter {
+  @include flex(center, center);
+}
